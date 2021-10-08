@@ -35,7 +35,7 @@ public class VentanaFibo1 extends JFrame {
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
-		JLabel lblNumeroInicial = new JLabel("No. Inicial");
+		JLabel lblNumeroInicial = new JLabel("No.. Inicial");
 		lblNumeroInicial.setBounds(23, 31, 119, 14);
 		contentPane.add(lblNumeroInicial);
 		
