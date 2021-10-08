@@ -35,15 +35,15 @@ public class VentanaFibo1 extends JFrame {
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
-		JLabel lblNumeroInicial = new JLabel("Num. Inicial");
+		JLabel lblNumeroInicial = new JLabel("No. Inicial");
 		lblNumeroInicial.setBounds(23, 31, 119, 14);
 		contentPane.add(lblNumeroInicial);
 		
-		JLabel lblNumeroInicial2 = new JLabel("Num. Inicial 2");
+		JLabel lblNumeroInicial2 = new JLabel("No. Inicial 2");
 		lblNumeroInicial2.setBounds(23, 63, 107, 14);
 		contentPane.add(lblNumeroInicial2);
 		
-		JLabel lblNumeroDeInteraciones = new JLabel("Num. iteraciones");
+		JLabel lblNumeroDeInteraciones = new JLabel("No. iteraciones");
 		lblNumeroDeInteraciones.setBounds(23, 97, 119, 14);
 		contentPane.add(lblNumeroDeInteraciones);
 		
