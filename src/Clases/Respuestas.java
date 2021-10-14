@@ -9,10 +9,10 @@ public class Respuestas {
 		    
 		    String[] radioR = {
 		        "Harry potter, los juegos del hambre, 50 sombras de Grey, Angeles y demonios" ,
-		        "Rockstar, Dance Monkey, Blinding Lights, Shape of You",
+		        "Shape of You, Rockstar, Dance Monkey, Blinding Lights ",
 		        "1997, 2001, 2009, 2015",
-		        "Río amazonas, Río Nilo, Río Yangtsé, Río Mississippi ",
-		        "Java, C#, Python, PHP ",
+		        "Río Nilo, Río amazonas,  Río Yangtsé, Río Mississippi ",
+		        "Python, Java, C#,  PHP ",
 		    };
 		    
 		    

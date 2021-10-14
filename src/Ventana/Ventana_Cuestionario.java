@@ -75,11 +75,11 @@ public class Ventana_Cuestionario extends JFrame {
 		bg.add(radRespuesta3);
 		bg.add(radRespuesta4);
 		
-		lblPregunta = new JLabel("Pregunta");
+		lblPregunta = new JLabel("¿Cuál es la serie de libros mejor vendida del siglo 21?");
 		lblPregunta.setBounds(17, 21, 368, 49);
 		contentPane.add(lblPregunta);
 		
-		radRespuesta1 = new JRadioButton("Respuesta 1");
+		radRespuesta1 = new JRadioButton("Harry potter");
 		radRespuesta1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e)
 			{
@@ -89,7 +89,7 @@ public class Ventana_Cuestionario extends JFrame {
 		radRespuesta1.setBounds(17, 92, 343, 23);
 		contentPane.add(radRespuesta1);
 		
-		radRespuesta2 = new JRadioButton("Respuesta 2");
+		radRespuesta2 = new JRadioButton("los juegos del hambre");
 		radRespuesta2.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) 
 			{
@@ -99,7 +99,7 @@ public class Ventana_Cuestionario extends JFrame {
 		radRespuesta2.setBounds(17, 118, 343, 23);
 		contentPane.add(radRespuesta2);
 		
-		radRespuesta3 = new JRadioButton("Respuesta 3");
+		radRespuesta3 = new JRadioButton("50 sombras de Grey");
 		radRespuesta3.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) 
 			{
@@ -109,7 +109,7 @@ public class Ventana_Cuestionario extends JFrame {
 		radRespuesta3.setBounds(17, 142, 343, 23);
 		contentPane.add(radRespuesta3);
 		
-		radRespuesta4 = new JRadioButton("Respuesta 4");
+		radRespuesta4 = new JRadioButton("Angeles y demonios");
 		radRespuesta4.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e)
 			{
