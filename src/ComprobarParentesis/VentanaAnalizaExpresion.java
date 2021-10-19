@@ -61,7 +61,7 @@ public class VentanaAnalizaExpresion extends JFrame {
 		
 		txtExpresion = new JTextField();
 		txtExpresion.setBackground(new Color(240, 248, 255));
-		txtExpresion.setFont(new Font("MS UI Gothic", Font.BOLD, 15));
+		txtExpresion.setFont(new Font("MS UI Gothic", Font.BOLD, 18));
 		txtExpresion.setBounds(36, 57, 276, 45);
 		contentPane.add(txtExpresion);
 		txtExpresion.setColumns(10);
