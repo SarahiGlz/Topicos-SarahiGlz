@@ -53,7 +53,7 @@ public class Ventana_Cuestionario extends JFrame {
 	    private JRadioButton radRespuesta2;
 	    private JRadioButton radRespuesta3;
 	    private JRadioButton radRespuesta4;
-	    private ButtonGroup bg= new ButtonGroup();
+	   
 	
 	
 	
@@ -70,10 +70,7 @@ public class Ventana_Cuestionario extends JFrame {
 		contentPane.setLayout(null);
 		
 		
-		bg.add(radRespuesta1);
-		bg.add(radRespuesta2);
-		bg.add(radRespuesta3);
-		bg.add(radRespuesta4);
+		
 		
 		lblPregunta = new JLabel("¿Cuál es la serie de libros mejor vendida del siglo 21?");
 		lblPregunta.setBounds(17, 21, 368, 49);
@@ -119,7 +116,11 @@ public class Ventana_Cuestionario extends JFrame {
 		radRespuesta4.setBounds(17, 167, 343, 23);
 		contentPane.add(radRespuesta4);
 		
-		
+		 ButtonGroup bg= new ButtonGroup();
+		    bg.add(radRespuesta1);
+			bg.add(radRespuesta2);
+			bg.add(radRespuesta3);
+			bg.add(radRespuesta4);
 		//--------------------------------------
 		JButton btnAnterior = new JButton("<-Anterior");
 		btnAnterior.addActionListener(new ActionListener() {

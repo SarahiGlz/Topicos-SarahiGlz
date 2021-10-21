@@ -4,7 +4,11 @@ import java.util.StringTokenizer;
 
 public class Respuestas {
 	String[] respuestas = {
-		      "1","2","3","4","5"
+			  "Harry potter" ,
+		        "Shape of You",
+		        "1997",
+		        "Río Nilo",
+		        "Python"
 		    };
 		    
 		    String[] radioR = {
@@ -12,7 +16,7 @@ public class Respuestas {
 		        "Shape of You, Rockstar, Dance Monkey, Blinding Lights ",
 		        "1997, 2001, 2009, 2015",
 		        "Río Nilo, Río amazonas,  Río Yangtsé, Río Mississippi ",
-		        "Python, Java, C#,  PHP ",
+		        "Python, Java, C#,  PHP "
 		    };
 		    
 		    
